@@ -1,16 +1,26 @@
 body {
 	font-family: "Helvetica Neue", Helvetica, sans-serif;
-	width: 840px;
+	width: 100vw;
 	margin: 0 auto 50px auto;
 	font-size: 14px;
+	background-color:black;
 }
 
 svg {
+	display: block;
 	width: 840px;
-	height: 600px;
+	height: 90vh;
 	font-family: helvetica, sans-serif;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 path, line {
-	stroke: #777;
+	stroke: #966F33;
+}
+
+#button {
+	display: block;
+	margin-left: auto;
+    	margin-right: auto;
 }

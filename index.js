@@ -7,7 +7,7 @@ var seed = {i: 0, x: 420, y: 600, a: 0, l: 130, d:0}; // a = angle, l = length, 
 var da = 0.5; // Angle delta
 var dl = 0.8; // Length delta (factor)
 var ar = 0.7; // Randomness
-var maxDepth = 10;
+var maxDepth = 12;
 
 
 // Tree creation functions
@@ -66,7 +66,7 @@ function y1(d) {return d.y;}
 function x2(d) {return endPt(d).x;}
 function y2(d) {return endPt(d).y;}
 function highlightParents(d) {
-	var colour = d3.event.type === 'mouseover' ? 'green' : '#777';
+	var colour = d3.event.type === 'mouseover' ? '#335B96' : '#966F33';
 	var depth = d.d;
 	for(var i = 0; i <= depth; i++) {
 		d3.select('#id-'+parseInt(d.i)).style('stroke', colour);
