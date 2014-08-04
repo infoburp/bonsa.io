@@ -7,6 +7,7 @@ body {
 }
 
 svg {
+	display: block;
 	width: 100vw;
 	height: 90vh;
 	font-family: helvetica, sans-serif;
@@ -19,6 +20,7 @@ path, line {
 }
 
 #button {
+	display: block;
 	margin-left: auto;
     	margin-right: auto;
 }
