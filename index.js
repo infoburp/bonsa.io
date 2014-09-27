@@ -7,7 +7,7 @@ var seed = {i: 0, x: 420, y: 600, a: 0, l: 130, d:0}; // a = angle, l = length, 
 var da = 0.5; // Angle delta
 var dl = 0.8; // Length delta (factor)
 var ar = 0.7; // Randomness
-var maxDepth = 12;
+var maxDepth = 8;
 
 
 // Tree creation functions
@@ -105,3 +105,6 @@ d3.selectAll('.regenerate')
 	.on('click', regenerate);
 
 regenerate(true);
+
+setInterval(regenerate, 4200);
+
