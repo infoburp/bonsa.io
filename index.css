@@ -15,6 +15,9 @@ svg {
 	margin-right: auto;
 }
 
+.h3 	{ 
+	z-index: 1200;
+	}
 path, line {
 	stroke: #966F33;
 }
