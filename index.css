@@ -17,9 +17,10 @@ svg {
 
 .h3 	{ 
 	z-index: 1200;
+	text-color:white;
 	}
 path, line {
-	stroke: #966F33;
+	stroke: red;
 }
 
 #button {
