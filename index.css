@@ -3,7 +3,7 @@ body {
 	width: 100vw;
 	margin: 0 auto 50px auto;
 	font-size: 14px;
-	background-color:black;
+
 }
 
 svg {
@@ -17,10 +17,10 @@ svg {
 
 .h3 	{ 
 	z-index: 1200;
-	color:white;
+	
 	}
 path, line {
-	stroke: red;
+	stroke: #381e0b;
 }
 
 #button {
