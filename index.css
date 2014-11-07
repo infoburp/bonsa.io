@@ -17,7 +17,7 @@ svg {
 
 .h3 	{ 
 	z-index: 1200;
-	text-color:white;
+	color:white;
 	}
 path, line {
 	stroke: red;
