@@ -66,7 +66,7 @@ function y1(d) {return d.y;}
 function x2(d) {return endPt(d).x;}
 function y2(d) {return endPt(d).y;}
 function highlightParents(d) {
-	var colour = d3.event.type === 'mouseover' ? '#381e0b' : 'red';
+	var colour = d3.event.type === 'mouseover' ? '#381e0b' : 'green';
 	var depth = d.d;
 	for(var i = 0; i <= depth; i++) {
 		d3.select('#id-'+parseInt(d.i)).style('stroke', colour);
